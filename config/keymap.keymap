@@ -29,11 +29,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans                &trans        &trans            &trans           &trans                                   &trans             &trans             &trans            &trans         &trans            &trans
-&trans  &kp DOLLAR            &kp PERCENT   &kp LS(N6)        &kp LS(N7)       &kp SLASH                                &trans             &kp RIGHT_BRACE    &kp RBKT          &kp LESS_THAN  &kp GREATER_THAN  &trans
-&trans  &kp LS(N2)            &kp HASH      &kp KP_MULTIPLY   &kp KP_PLUS      &kp UNDERSCORE   &trans  &trans          &kp LS(BACKSLASH)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)  &kp SEMICOLON  &kp RS(SEMI)      &trans
-&trans  &kp LS(LEFT_BRACKET)  &kp PLUS      &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION     &trans  &trans          &kp INT_YEN        &kp RIGHT_BRACKET  &kp RS(RBKT)      &mkp MB3       &trans            &trans
-&trans  &trans                &msc SCRL_UP  &msc SCRL_DOWN    &msc SCRL_LEFT   &msc SCRL_RIGHT  &trans  &kp INT_HENKAN  &kp INT_MUHENKAN   &trans             &trans            &kp CARET      &kp LS(N1)        &trans
+&trans  &trans                &trans        &trans            &trans           &trans                                   &trans                 &trans             &trans             &trans         &trans            &trans
+&trans  &kp DOLLAR            &kp PERCENT   &kp LS(N6)        &kp LS(N7)       &kp SLASH                                &trans                 &kp RIGHT_BRACE    &kp LS(BACKSLASH)  &kp LESS_THAN  &kp GREATER_THAN  &trans
+&trans  &kp LS(N2)            &kp HASH      &kp KP_MULTIPLY   &kp KP_PLUS      &kp UNDERSCORE   &trans  &trans          &kp RIGHT_PARENTHESIS  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)   &kp SEMICOLON  &kp RS(SEMI)      &trans
+&trans  &kp LS(LEFT_BRACKET)  &kp PLUS      &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION     &trans  &trans          &kp INT_YEN            &kp RIGHT_BRACKET  &kp MINUS          &mkp MB3       &trans            &trans
+&trans  &trans                &msc SCRL_UP  &msc SCRL_DOWN    &msc SCRL_LEFT   &msc SCRL_RIGHT  &trans  &kp INT_HENKAN  &kp INT_MUHENKAN       &trans             &trans             &kp EQUAL      &kp BSLH          &trans
             >;
         };
 
