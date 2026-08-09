@@ -29,11 +29,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans                &trans           &trans            &trans           &trans                                   &trans                 &trans             &trans             &trans                 &trans               &trans
-&trans  &kp DOLLAR            &kp PERCENT      &kp LS(N6)        &kp LS(N7)       &kp SLASH                                &trans                 &kp RIGHT_BRACE    &kp LS(BACKSLASH)  &kp LESS_THAN          &kp GREATER_THAN     &trans
-&trans  &kp LS(N2)            &kp HASH         &kp KP_MULTIPLY   &kp KP_PLUS      &kp UNDERSCORE   &trans  &trans          &kp LS(DOUBLE_QUOTES)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)   &kp SEMICOLON          &kp LS(NON_US_HASH)  &trans
-&trans  &kp LS(LEFT_BRACKET)  &kp PLUS         &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION     &trans  &trans          &kp INT_YEN            &kp RIGHT_BRACKET  &kp BSLH           &kp LS(RIGHT_BRACKET)  &kp TILDE2           &trans
-&trans  &msc MOVE_Y(-20)      &msc MOVE_Y(20)  &msc MOVE_X(-20)  &msc MOVE_X(20)  &msc MOVE_Y(-5)  &trans  &kp INT_HENKAN  &kp INT_MUHENKAN       &trans             &trans             &kp NON_US_HASH        &kp LS(NUHS)         &trans
+&trans  &trans                &trans           &trans            &trans           &trans                                  &trans            &trans             &trans             &trans           &trans              &trans
+&trans  &kp DOLLAR            &kp PERCENT      &kp LS(N6)        &kp LS(N7)       &kp SLASH                               &trans            &kp RIGHT_BRACE    &kp LS(BACKSLASH)  &kp LESS_THAN    &kp GREATER_THAN    &trans
+&trans  &kp LS(N2)            &kp HASH         &kp KP_MULTIPLY   &kp KP_PLUS      &kp UNDERSCORE  &trans  &trans          &kp LS(GRAVE)     &kp LS(NUMBER_8)   &kp LS(NUMBER_9)   &kp SEMICOLON    &kp LS(UNDERSCORE)  &trans
+&trans  &kp LS(LEFT_BRACKET)  &kp PLUS         &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION    &trans  &trans          &kp INT_YEN       &kp RIGHT_BRACKET  &kp BSLH           &kp LS(COMMA)    &kp LS(PERIOD)      &trans
+&trans  &msc MOVE_Y(-20)      &msc MOVE_Y(20)  &msc MOVE_X(-20)  &msc MOVE_X(20)  &trans          &trans  &kp INT_HENKAN  &kp INT_MUHENKAN  &trans             &trans             &kp NON_US_HASH  &kp LS(NUHS)        &trans
             >;
         };
 
