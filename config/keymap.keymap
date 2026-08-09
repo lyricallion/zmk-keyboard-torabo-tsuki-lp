@@ -29,11 +29,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans                &trans        &trans            &trans           &trans                                   &trans            &trans             &trans             &trans           &trans            &trans
-&trans  &kp DOLLAR            &kp PERCENT   &kp LS(N6)        &kp LS(N7)       &kp SLASH                                &trans            &kp RIGHT_BRACE    &kp LS(BACKSLASH)  &kp LESS_THAN    &kp GREATER_THAN  &trans
-&trans  &kp LS(N2)            &kp HASH      &kp KP_MULTIPLY   &kp KP_PLUS      &kp UNDERSCORE   &trans  &trans          &kp UNDER         &kp LS(NUMBER_8)   &kp LS(NUMBER_9)   &kp SEMICOLON    &kp COLON         &trans
-&trans  &kp LS(LEFT_BRACKET)  &kp PLUS      &kp LEFT_BRACKET  &kp EXCLAMATION  &kp QUESTION     &trans  &trans          &kp INT_YEN       &kp RIGHT_BRACKET  &kp BSLH           &kp EQUAL        &kp RS(SEMI)      &trans
-&trans  &trans                &msc SCRL_UP  &msc SCRL_DOWN    &msc SCRL_LEFT   &msc SCRL_RIGHT  &trans  &kp INT_HENKAN  &kp INT_MUHENKAN  &trans             &trans             &kp NON_US_HASH  &kp LS(NUHS)      &trans
+&trans  &trans                &trans            &trans            &trans            &trans                                   &trans            &trans             &trans             &trans           &trans                &trans
+&trans  &kp DOLLAR            &kp PERCENT       &kp LS(N6)        &kp LS(N7)        &kp SLASH                                &trans            &kp RIGHT_BRACE    &kp LS(BACKSLASH)  &kp LESS_THAN    &kp GREATER_THAN      &trans
+&trans  &kp LS(N2)            &kp HASH          &kp KP_MULTIPLY   &kp KP_PLUS       &kp UNDERSCORE   &trans  &trans          &kp LS(ASTERISK)  &kp LS(NUMBER_8)   &kp LS(NUMBER_9)   &kp SEMICOLON    &kp LS(SEMICOLON)     &trans
+&trans  &kp LS(LEFT_BRACKET)  &kp PLUS          &kp LEFT_BRACKET  &kp EXCLAMATION   &kp QUESTION     &trans  &trans          &kp INT_YEN       &kp RIGHT_BRACKET  &kp BSLH           &kp EQUAL        &kp LS(SINGLE_QUOTE)  &trans
+&trans  &msc MOVE_X(20)       &msc MOVE_X(-20)  &msc MOVE_Y(20)   &msc MOVE_Y(-20)  &msc SCRL_RIGHT  &trans  &kp INT_HENKAN  &kp INT_MUHENKAN  &trans             &trans             &kp NON_US_HASH  &kp LS(NUHS)          &trans
             >;
         };
 
