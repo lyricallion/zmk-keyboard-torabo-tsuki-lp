@@ -5,17 +5,17 @@ include:
     artifact-name: torabo_tsuki_lp_left_central
   - board: bmp_boost
     shield: torabo_tsuki_lp_right
-    snippet: studio-rpc-usb-uart
+    snippet: studio-rpc-uart-usb
     artifact-name: torabo_tsuki_lp_right_peripheral
   - board: bmp_boost
     shield: torabo_tsuki_lp_left
-    # 【左側・子機】トラックパッドを動かし、信号を右側に送るための設定
-    snippet: "studio-rpc-usb-uart input-trackpad-mini-pointer input-split"
+    # 【3番目：左子機】エラーの原因を修正。通信用（input-split）だけにします
+    snippet: "studio-rpc-usb-uart input-split"
     artifact-name: torabo_tsuki_lp_left_peripheral
   - board: bmp_boost
     shield: torabo_tsuki_lp_right
-    # 【右側・親機】トラックボールを動かし、左側からのトラックパッド信号を受け取るための設定
-    snippet: "studio-rpc-usb-uart split-central input-trackball input-listener input-split-listener"
+    # 【4番目：右親機】右のボール（input-trackball）を動かしつつ、左から届くトラックパッド信号（input-trackpad-mini-pointer）を受け取るように合体
+    snippet: "studio-rpc-usb-uart split-central input-trackball input-listener input-trackpad-mini-pointer input-split-listener"
     artifact-name: torabo_tsuki_lp_right_central
   - board: bmp_boost
     shield: torabo_tsuki_lp_left
