@@ -25,9 +25,3 @@ include:
     artifact-name: torabo_tsuki_lp_double_ball_right_central
   - board: bmp_boost
     shield: settings_reset
-    include:
-  - board: xiao_ble
-    shield: torabo_tsuki_lp_central_left
-    snippet: input-trackpad-mini-pointer  # ポインターベースで動作させる
-  - board: xiao_ble
-    shield: torabo_tsuki_lp_peripheral_right
