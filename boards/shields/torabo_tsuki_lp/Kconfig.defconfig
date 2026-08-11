@@ -23,5 +23,28 @@ config ZMK_POINTING
 
 config IQS7211E
     default y
+# 指示書のパラメータをそのまま配列（スクローラーモードをオフ、慣性をオン）
+config IQS7211E_SCROLLER_MODE
+    default n
 
+config IQS7211E_TAP_EDGE_MARGIN_PERMILLE
+    default 80
+
+config IQS7211E_SCROLLER_HWHEEL_ZONE_MIN_PERMILLE
+    default 0
+
+config IQS7211E_SCROLLER_HWHEEL_ZONE_MAX_PERMILLE
+    default 150
+
+config IQS7211E_SCROLLER_HWHEEL_ZONE_FROM_BOTTOM
+    default n
+
+config IQS7211E_SCROLLER_INERTIA
+    default y
+
+config IQS7211E_SCROLLER_INERTIA_DECAY_PERMILLE
+    default 920
+
+config IQS7211E_SCROLLER_INERTIA_STOP_THRESHOLD_Q8
+    default 96
 endif
