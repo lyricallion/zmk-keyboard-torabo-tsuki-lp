@@ -43,3 +43,7 @@
         // v-invert;
     };
 };
+# トラックパッドの電源制御ピンを常時ON（電源供給状態）に固定する設定
+&trackpad {
+    /delete-property/ power-gpios;
+};
