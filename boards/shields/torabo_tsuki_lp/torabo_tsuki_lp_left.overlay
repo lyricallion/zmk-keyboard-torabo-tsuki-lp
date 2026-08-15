@@ -40,11 +40,6 @@
         irq-gpios = <&gpio0 21 GPIO_PULL_UP>;
         power-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
         scroller-mode;
-
-        # 私が勝手に消したコメント行を完全に復元
         // v-invert;
-
-        # 【追加箇所】指示書にある文字だけをそのまま配置（余計な init-length は削除）
-        init-symbol = "iqs7211e_init_default";
     };
 };
