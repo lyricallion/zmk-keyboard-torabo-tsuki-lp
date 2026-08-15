@@ -40,6 +40,9 @@
         irq-gpios = <&gpio0 21 GPIO_PULL_UP>;
         power-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
         scroller-mode;
-        // v-invert;
+
+        # ここに正確に追加されました
+        init-symbol = "trackpad0_iqs7211e_init";
+        init-length = <0>;
     };
 };
