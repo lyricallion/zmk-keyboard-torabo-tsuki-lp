@@ -45,11 +45,6 @@
             &zip_scroll_x_scaler 0 1
             &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
         >;
-    };
-};
-
-&pointing_listener {
-    scroller {
         layers = <1>;
         input-processors = <
             &zip_xy_to_scroll_mapper
