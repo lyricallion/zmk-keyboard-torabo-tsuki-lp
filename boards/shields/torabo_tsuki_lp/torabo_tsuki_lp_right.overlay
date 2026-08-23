@@ -17,6 +17,18 @@
 &size_l_transform {
     col-offset = <7>;
 };
+/ {
+    input_processors {
+        zip_scroll_x_scaler: zip_scroll_x_scaler {
+            compatible = "zmk,input-processor-scaler";
+            #input-processor-cells = <2>;
+            type = <INPUT_EV_REL>;
+            codes = <INPUT_REL_HWHEEL>;
+            track-remainders;
+        };
+    };
+};
+
 &pointing_listener {
     scroller {
         layers = <3>;
