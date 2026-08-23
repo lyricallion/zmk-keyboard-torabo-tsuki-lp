@@ -17,12 +17,9 @@
 &size_l_transform {
     col-offset = <7>;
 };
-&trackball_listener {
+&pointing_listener {
     scroller {
         layers = <3>;
-        input-processors = <
-            &zip_xy_to_scroll_mapper
-            &zip_scroll_scaler 3 2
-        >;
+        input-processors = <&zip_xy_to_scroll_mapper>;
     };
 };
