@@ -40,8 +40,8 @@
         layer_2 {
             bindings = <
 &trans  &trans            &trans                  &trans                  &trans                &trans                                                  &trans          &trans        &trans        &trans        &trans        &trans
-&trans  &trans            &trans                  &kp UP_ARROW            &trans                &kp KP_MULTIPLY                                         &kp LCTRL       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS   &trans
-&trans  &kp LG(D)         &kp LEFT_ARROW          &kp DOWN_ARROW          &kp RIGHT_ARROW       &kp KP_DIVIDE            &trans         &trans          &kp LEFT_SHIFT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS  &trans
+&trans  &kp LG(D)         &trans                  &kp UP_ARROW            &trans                &kp KP_MULTIPLY                                         &kp LCTRL       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS   &trans
+&trans  &trans            &kp LEFT_ARROW          &kp DOWN_ARROW          &kp RIGHT_ARROW       &kp KP_DIVIDE            &trans         &trans          &kp LEFT_SHIFT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS  &trans
 &trans  &kp LEFT_SHIFT    &kp LS(LC(LEFT_ARROW))  &kp LS(LC(DOWN_ARROW))  &kp LS(LC(UP_ARROW))  &kp LC(LS(RIGHT_ARROW))  &trans         &trans          &kp NUMBER_0    &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans
 &trans  &kp LEFT_CONTROL  &kp N1                  &kp LEFT_GUI            &kp DEL               &kp ENTER                &kp BACKSPACE  &kp UNDERSCORE  &trans          &trans        &trans        &trans        &lt 3 ESC     &trans
             >;
